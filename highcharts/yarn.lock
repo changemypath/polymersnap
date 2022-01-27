@@ -734,8 +734,8 @@ cache-base@^1.0.1:
     unset-value "^1.0.0"
 
 cached-path-relative@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/cached-path-relative/-/cached-path-relative-1.0.1.tgz#d09c4b52800aa4c078e2dd81a869aac90d2e54e7"
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/cached-path-relative/-/cached-path-relative-1.1.0.tgz#865576dfef39c0d6a7defde794d078f5308e3ef3"
 
 caller-path@^0.1.0:
   version "0.1.0"
@@ -1657,6 +1657,13 @@ escope@^3.6.0:
     es6-weak-map "^2.0.1"
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
+
+"eslint-plugin-highcharts@github:highcharts/eslint-plugin-highcharts":
+  version "1.0.10"
+  uid "24c289112282da1fb096bef3cef2755d7b23db9d"
+  resolved "https://codeload.github.com/highcharts/eslint-plugin-highcharts/tar.gz/24c289112282da1fb096bef3cef2755d7b23db9d"
+  dependencies:
+    requireindex "~1.2.0"
 
 eslint-plugin-security@^1.4.0:
   version "1.4.0"
@@ -5077,6 +5084,10 @@ require-uncached@^1.0.2:
   dependencies:
     caller-path "^0.1.0"
     resolve-from "^1.0.0"
+
+requireindex@~1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/requireindex/-/requireindex-1.2.0.tgz#3463cdb22ee151902635aa6c9535d4de9c2ef1ef"
 
 requirejs@^2.3.3:
   version "2.3.5"
